@@ -24,16 +24,16 @@ This project aims at finding lanes on a road from a video using OpenCV-python an
 
 * Get the required region of interest to work on
 <p align="left">
-    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/cropped_canny.jpg?raw=true" width="640" alt="cropped" /><br>    
+    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/cropped_canny.jpg?raw=true" width="520" alt="cropped" /><br>    
 </p> 
 
 * Compute Hough Transform of the image we got in previous step
 * Make an empty image with lines drawn using the image in previous step
 <p align="left">
-    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/line_image.jpg?raw=true" width="640" alt="lines" /><br>    
+    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/line_image.jpg?raw=true" width="520" alt="lines" /><br>    
 </p> 
 
 * Combine the two images using addWeighted from OpenCV
 <p align="left">
-    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/combo_image.jpg?raw=true" width="640" alt="lines" /><br>    
+    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/combo_image.jpg?raw=true" width="520" alt="lines" /><br>    
 </p> 
