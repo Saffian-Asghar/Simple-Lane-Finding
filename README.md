@@ -42,7 +42,7 @@ This project aims at finding lanes on a road from a video using OpenCV-python an
 The same methodology can be used to iterate over each frame of a video using a simple loop.
 Like so,
 <p align="center">
-    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/outputvid.gifraw=true" width="640" alt="lines" /><br>    
+    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/outputvid.gif?raw=true" width="640" alt="lines" /><br>    
 </p> 
 
 
