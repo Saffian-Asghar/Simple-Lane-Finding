@@ -72,13 +72,11 @@ lines = cv2.HoughLinesP(cropped_canny, 2, np.pi/180, 10, np.array([]), minLineLe
 line_image = display_lines(lane_image, lines)
 combo_image = cv2.addWeighted(lane_image, 0.8, line_image, 1, 0)
 
-cv2.imwrite("img/combo_image.jpg",lines)
-cv2.imshow("img/combo_image",lines)
-cv2.waitKey(0)
-'''
-writer  = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M','J','P','G'), 30.0, (848,480))
+cv2.imwrite("img/combo_image.jpg",combo_image)
 
-cap = cv2.VideoCapture("uetlane.mp4")
+writer  = cv2.VideoWriter('img/output.avi', cv2.VideoWriter_fourcc('M','J','P','G'), 30.0, (848,480))
+
+cap = cv2.VideoCapture("img/uetlane.mp4")
 while(cap.isOpened()):
     _, frame = cap.read()
     canny_image = canny(frame)
@@ -93,4 +91,3 @@ while(cap.isOpened()):
         break
 cap.release()
 cv2.destroyAllWindows()
-'''
