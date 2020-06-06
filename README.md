@@ -39,8 +39,8 @@ This project aims at finding lanes on a road from a video using OpenCV-python an
 </p> 
 
 ## How to run
-Clone this repo and just run
-`code`python lanes.py
+Clone this repo and just run <br>
+python lanes.py
 
 ## For video
 The same methodology can be used to iterate over each frame of a video using a simple loop.
