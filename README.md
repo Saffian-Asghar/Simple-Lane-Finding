@@ -37,3 +37,12 @@ This project aims at finding lanes on a road from a video using OpenCV-python an
 <p align="left">
     <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/combo_image.jpg?raw=true" width="520" alt="lines" /><br>    
 </p> 
+
+## For video
+The same methodology can be used to iterate over each frame of a video using a simple loop.
+Like so,
+<p align="center">
+    <img src="https://github.com/Saffian-Asghar/Simple-Lane-Finding/blob/master/img/outputvid.gifraw=true" width="640" alt="lines" /><br>    
+</p> 
+
+
